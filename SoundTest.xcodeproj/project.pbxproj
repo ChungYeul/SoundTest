@@ -21,6 +21,9 @@
 		007B86D81887958B00DD65DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007B86BA1887958B00DD65DB /* UIKit.framework */; };
 		007B86E01887958B00DD65DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 007B86DE1887958B00DD65DB /* InfoPlist.strings */; };
 		007B86E21887958B00DD65DB /* SoundTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 007B86E11887958B00DD65DB /* SoundTestTests.m */; };
+		007B86EE18879CD100DD65DB /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 007B86EB18879CD100DD65DB /* music3.mp3 */; };
+		007B86EF18879CD100DD65DB /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 007B86EC18879CD100DD65DB /* music2.mp3 */; };
+		007B86F018879CD100DD65DB /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 007B86ED18879CD100DD65DB /* music1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		007B86DD1887958B00DD65DB /* SoundTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundTestTests-Info.plist"; sourceTree = "<group>"; };
 		007B86DF1887958B00DD65DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		007B86E11887958B00DD65DB /* SoundTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundTestTests.m; sourceTree = "<group>"; };
+		007B86EB18879CD100DD65DB /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
+		007B86EC18879CD100DD65DB /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		007B86ED18879CD100DD65DB /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		007B86BC1887958B00DD65DB /* SoundTest */ = {
 			isa = PBXGroup;
 			children = (
+				007B86EB18879CD100DD65DB /* music3.mp3 */,
+				007B86EC18879CD100DD65DB /* music2.mp3 */,
+				007B86ED18879CD100DD65DB /* music1.mp3 */,
 				007B86C51887958B00DD65DB /* AppDelegate.h */,
 				007B86C61887958B00DD65DB /* AppDelegate.m */,
 				007B86C81887958B00DD65DB /* Main.storyboard */,
@@ -228,8 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007B86EE18879CD100DD65DB /* music3.mp3 in Resources */,
 				007B86CF1887958B00DD65DB /* Images.xcassets in Resources */,
 				007B86C11887958B00DD65DB /* InfoPlist.strings in Resources */,
+				007B86EF18879CD100DD65DB /* music2.mp3 in Resources */,
+				007B86F018879CD100DD65DB /* music1.mp3 in Resources */,
 				007B86CA1887958B00DD65DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
